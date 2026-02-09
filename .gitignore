@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML / Large files (GitHub has 100MB file limit - .keras models often exceed this)
+*.keras
+*.h5
+*.hdf5
+logs/
+
+# Optional: Uncomment to exclude dataset (saves repo size; add setup instructions in README)
+# data/
