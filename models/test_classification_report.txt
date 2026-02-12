@@ -1,0 +1,11 @@
+                precision    recall  f1-score   support
+
+      cataract     0.9412    0.9697    0.9552        33
+conjunctivitis     0.9688    0.9394    0.9538        33
+        normal     1.0000    1.0000    1.0000        33
+       uveitis     0.9394    0.9394    0.9394        33
+
+      accuracy                         0.9621       132
+     macro avg     0.9623    0.9621    0.9621       132
+  weighted avg     0.9623    0.9621    0.9621       132
+

@@ -1,0 +1,4 @@
+Cataract
+Conjunctivitis
+Normal
+Uveitis

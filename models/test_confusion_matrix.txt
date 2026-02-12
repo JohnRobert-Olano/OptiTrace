@@ -1,0 +1,5 @@
+Confusion matrix (rows=true, cols=pred):
+[[32  0  0  1]
+ [ 1 31  0  1]
+ [ 0  0 33  0]
+ [ 1  1  0 31]]
