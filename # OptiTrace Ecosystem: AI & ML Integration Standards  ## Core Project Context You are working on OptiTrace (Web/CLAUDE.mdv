@@ -1,0 +1,14 @@
+# OptiTrace Ecosystem: AI & ML Integration Standards
+
+## Core Project Context
+You are working on OptiTrace (Web/Mobile). The defining feature of this application is the integration of the **MobileNetV3** machine learning model for high-performance, lightweight visual processing.
+
+## MobileNetV3 Integration Rules
+- **Performance:** MobileNetV3 is chosen for speed and efficiency. When writing processing logic, ensure tensor operations are optimized and do not block the main UI thread.
+- **Memory Management:** Ensure all tensors are properly disposed of after inference to prevent memory leaks, especially on the mobile client.
+- **Error Handling:** Provide clear, user-friendly error messages if the device camera fails to initialize or if the model fails to load.
+
+## Google Antigravity Workflow
+- **Consistency:** Maintain parity in core logic between the web repository and the mobile repository.
+- **Typing:** Use strict TypeScript. Define precise interfaces for the model's output predictions (e.g., bounding boxes, confidence scores, classifications).
+- **Testing:** Before integrating ML output into the UI, generate simple console-logging functions to verify the model is returning accurate data shapes.
